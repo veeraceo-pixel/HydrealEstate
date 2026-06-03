@@ -26,6 +26,14 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Restructure for CRA build
+        run: |
+          mkdir -p public src
+          cp index.html public/
+          cp index.js src/
+          cp App.js src/
+          if [ -f HydPropertyShorts.jsx ]; then cp HydPropertyShorts.jsx src/; fi
+
       - name: Install dependencies
         run: npm install
 
