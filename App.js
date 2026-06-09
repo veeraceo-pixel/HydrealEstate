@@ -1,8 +1,9 @@
-import React from 'react';
+// ❌ OLD (what you probably have now):
 import HydPropertyHub from './HydPropertyHub';
 
-function App() {
+// ✅ NEW (change to this):
+import HydPropertyHub from './HydPropertyHub-Enhanced';
+
+export default function App() {
   return <HydPropertyHub />;
 }
-
-export default App;
