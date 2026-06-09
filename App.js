@@ -1,7 +1,4 @@
-// ❌ OLD (what you probably have now):
-import HydPropertyHub from './HydPropertyHub';
-
-// ✅ NEW (change to this):
+// Make sure this line imports the Enhanced version:
 import HydPropertyHub from './HydPropertyHub-Enhanced';
 
 export default function App() {
